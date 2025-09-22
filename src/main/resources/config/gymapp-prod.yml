@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gymapp_prod
+    username: ${PROD_USER}
+    password: ${PROD_USER_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update

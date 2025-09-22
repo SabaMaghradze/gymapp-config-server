@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gymapp_stg
+    username: ${STG_USER}
+    password: ${STG_USER_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
