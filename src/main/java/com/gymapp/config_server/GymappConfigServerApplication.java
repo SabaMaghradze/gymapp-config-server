@@ -10,5 +10,4 @@ public class GymappConfigServerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GymappConfigServerApplication.class, args);
 	}
-
 }
