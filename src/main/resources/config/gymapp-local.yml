@@ -1,8 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/gymapp_rest
-    username: ${LOCAL_AND_DEV_USER}
-    password: ${LOCAL_AND_DEV_USER_PASSWORD}
-  jpa:
-    hibernate:
-      ddl-auto: update
