@@ -44,11 +44,16 @@ resilience4j:
         failureRateThreshold: 50
         automaticTransitionFromOpenToHalfOpenEnabled: true
         slidingWindowType: count_based
-        ignoreExceptions:
-          - org.springframework.web.client.RestClientResponseException
+#        ignoreExceptions:
+#          - org.springframework.web.client.HttpClientErrorException
+#          - org.springframework.web.client.RestClientResponseException
+#          - org.springframework.web.client.HttpStatusCodeException
+
 
 server:
   port: 8082
+  error:
+    include-message: always
 
 #spring:
 #  datasource:
