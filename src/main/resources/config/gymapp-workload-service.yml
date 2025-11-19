@@ -1,8 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://root:password111@localhost:27017/trainers_duration?authSource=admin
-      database: users
+      uri: mongodb://root:password111@localhost:27017/trainers_training_duration?authSource=admin
   activemq:
     broker-url: tcp://localhost:61616
     user: admin
