@@ -9,5 +9,12 @@ spring:
         native:
           search-locations: classpath:/config
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://gymapp-eureka:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+
 server:
   port: 8888
